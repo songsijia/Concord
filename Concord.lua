@@ -1200,8 +1200,12 @@ function concord.symph.discordantChord(player)
 		end
 	end
 	if count == 4 then
-		concord.symph.play(player,"discordantchord")
 		concord.box("ATTEMPTING DCC ON "..player,"yellow","~%",player)
+		if concord.vitals.pow >= 6 then
+			concord.symph.play(player,"discordantchord")
+		else
+			concord.call(player.." has 4 aurics.")
+		end
 	end
 end
 

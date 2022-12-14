@@ -1,5 +1,5 @@
 # Concord
-AI response system for Mudlet, for the online MUD game Lusternia.
+Automated response system for Mudlet, for the online MUD game Lusternia. Reads response from telnet and sends corresponding command-line input.
 
 Features:
 * Automated pathing through game rooms
